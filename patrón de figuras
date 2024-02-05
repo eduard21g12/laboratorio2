@@ -1,0 +1,22 @@
+//funcion de ubicacion
+int posicionX;
+int posicionY;
+
+void setup(){
+ size(10000,750);
+ background(#FF1C1C);
+}
+void draw(){
+fill(#00FFDB,1);
+rect(100+posicionX,100+posicionY,300,300);
+fill(#00FFDB,5);
+rect(400+posicionX,400+posicionY,300,300);
+fill(#00FFDB,8);
+rect(700+posicionX,100+posicionY,300,300);
+fill(#00FFDB,50);
+rect(1000+posicionX,400+posicionY,300,300);
+fill(#00FFDB,3);
+rect(1300+posicionX,100+posicionY,300,300);
+fill(#00FFDB,1);
+rect(1600+posicionX,400+posicionY,300,300);
+}
