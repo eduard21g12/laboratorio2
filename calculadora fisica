@@ -1,0 +1,154 @@
+void setup() {
+  size(230, 350);
+  background(#00D7FF);
+}
+int resultado=0;
+String valordisplay="";
+int num1=0;
+int num2=0;
+int contador=0;
+char caracter=' ';
+
+
+void draw() {
+
+  rect(20, 15, 190, 40);
+  fill(#FFFCFC);
+
+  textSize(40);//botonC
+  fill(#000000);//color negro
+  rect(22, 65, 40, 40);
+  fill(#FFFCFC);
+  text("C", 30, 100);
+
+  textSize(35);//boton()
+  fill(#000000);//color negro
+  rect(72, 65, 40, 40);
+  fill(#FFFCFC);
+  text("()", 82, 95);
+
+  textSize(35);//boton%
+  fill(#000000);//color negro
+  rect(122, 65, 40, 40);
+  fill(#FFFCFC);
+  text("%", 129, 98);
+
+  textSize(35);//boton-
+  fill(#000000);//color negro
+  rect(172, 65, 40, 40);
+  fill(#FFFCFC);
+  text("/", 188, 95);
+
+  textSize(40);//boton7
+  fill(#000000);//color negro
+  rect(22, 115, 40, 40);
+  fill(#FFFCFC);
+  text("7", 33, 150);
+
+  textSize(40);//boton8
+  fill(#000000);//color negro
+  rect(72, 115, 40, 40);
+  fill(#FFFCFC);
+  text("8", 83, 150);
+
+  textSize(40);//boton9
+  fill(#000000);//color negro
+  rect(122, 115, 40, 40);
+  fill(#FFFCFC);
+  text("9", 133, 150);
+
+  textSize(40);//boton*
+  fill(#000000);//color negro
+  rect(172, 115, 40, 40);
+  fill(#FFFCFC);
+  text("*", 183, 150);
+
+  textSize(40);//boton4
+  fill(#000000);//color negro
+  rect(22, 165, 40, 40);
+  fill(#FFFCFC);
+  text("4", 33, 200);
+
+  textSize(40);//boton5
+  fill(#000000);//color negro
+  rect(72, 165, 40, 40);
+  fill(#FFFCFC);
+  text("5", 83, 200);
+
+  textSize(40);//boton6
+  fill(#000000);//color negro
+  rect(122, 165, 40, 40);
+  fill(#FFFCFC);
+  text("6", 133, 200);
+
+  textSize(40);//boton-
+  fill(#000000);//color negro
+  rect(172, 165, 40, 40);
+  fill(#FFFCFC);
+  text("-", 186, 195);
+
+  textSize(40);//boton1
+  fill(#000000);//color negro
+  rect(22, 215, 40, 40);
+  fill(#FFFCFC);
+  text("1", 33, 248);
+
+  textSize(40);//boton2
+  fill(#000000);//color negro
+  rect(72, 215, 40, 40);
+  fill(#FFFCFC);
+  text("2", 83, 248);
+
+  textSize(40);//boton3
+  fill(#000000);//color negro
+  rect(122, 215, 40, 40);
+  fill(#FFFCFC);
+  text("3", 133, 248);
+
+  textSize(40);//boton+
+  fill(#000000);//color negro
+  rect(172, 215, 40, 40);
+  fill(#FFFCFC);
+  text("+", 183, 248);
+
+  textSize(40);//boton0
+  fill(#000000);//color negro
+  rect(22, 265, 40, 40);
+  fill(#FFFCFC);
+  text("0", 33, 298);
+
+  textSize(30);//boton00
+  fill(#000000);//color negro
+  rect(72, 265, 40, 40);
+  fill(#FFFCFC);
+  text("00", 78, 298);
+
+  textSize(50);//boton.
+  fill(#000000);//color negro
+  rect(122, 265, 40, 40);
+  fill(#FFFCFC);
+  text(".", 136, 290);
+
+  textSize(40);//boton=
+  fill(#000000);//color negro
+  rect(172, 265, 40, 40);
+  fill(#FFFCFC);
+  text("=", 183, 298); 
+  //Boton blanco
+  if ((mouseX>10 & mouseX<60)&(mouseY>80 & mouseY<120)) {
+    if (mousePressed ==true) {
+      valordisplay="0";
+      contador=0;
+      resultado=0;
+    } else {
+      fill(#FFFFFF);
+    }
+    println("coordenada X: ", mouseX, "coordenada Y: ", mouseY);
+  }else if ((mouseX>70 & mouseX<140)&(mouseY>80 & mouseY<120)) {
+    if (mousePressed ==true) {
+      valordisplay="(";
+      contador="(";
+      resultado="(";
+      
+}
+}
