@@ -1,0 +1,14 @@
+void setup(){
+ size(300,300); 
+}
+void draw(){
+ int temp=30;
+
+  if (temp<15) {
+   println("Necesita ropa abrigada");
+  } else if (temp==15) {
+  println("temperatura normal y fresca, usar ropa normal");
+  }else if (temp>15){
+    println("temperatura elevada,usar ropa fresca, o no salir de casa");
+  }
+}
